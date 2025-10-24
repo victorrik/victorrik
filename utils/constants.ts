@@ -1,1 +1,0 @@
-export const urlStorageBase = "https://firebasestorage.googleapis.com/v0/b/victorrik-1.appspot.com/o/"
