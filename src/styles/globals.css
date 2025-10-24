@@ -1,6 +1,21 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif,
+  --font-sans:
+    var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-delius: "DeliusUnicase";
+}
+@font-face {
+  font-family: "DeliusUnicase";
+  src: url("/fonts/Delius_Unicase/DeliusUnicase-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DeliusUnicase";
+  src: url("/fonts/Delius_Unicase/DeliusUnicase-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
 }
