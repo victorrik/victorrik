@@ -8,11 +8,11 @@ import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
   title: "Victorrik",
-  description: "Victorrik uwu",
+  description: "uwu",
   openGraph: {
     images: [
       {
-        url: "/images/ducksWorking.png",
+        url: "/images/ducksWorking-1536_1024.jpg",
       },
     ],
   },
@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${geist.variable}`}>
       <body>
-        <Analytics debug />
+        <Analytics />
         <TRPCReactProvider>{children}</TRPCReactProvider>
       </body>
     </html>

@@ -3,12 +3,12 @@ import type { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Victorrik cumpleaños",
-  description: "Victorrik cumpleaños uwu",
+  title: "Victorrik",
+  description: "Victorrik cumpleaños",
   openGraph: {
     images: [
       {
-        url: "/images/birthdayDucks.png",
+        url: "/images/birthdayDucks-256.jpg",
       },
     ],
   },
@@ -24,7 +24,7 @@ export default async function Home() {
           <Image
             width={1024}
             height={1024}
-            src="/images/birthdayDucks.png"
+            src="/images/birthdayDucks-1024.jpg"
             alt="Ducks birthday"
           />
         </div>
