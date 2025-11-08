@@ -68,12 +68,9 @@ export default async function Home() {
       </div>
       <div className="flex flex-col items-center justify-center gap-6 p-4 font-bold">
         <div className="flex flex-col gap-6 p-2">
+          <h3>Por motivo de mi cumpleaños, realizare una comida en mi casa.</h3>
           <h3>
-            Por motivo de mi cumpleaños, realizare una carnitada asada en mi
-            casa.
-          </h3>
-          <h3>
-            Habra carne y refrescos. Tambien podras traer tu propia bebida y
+            Habra pozole y refrescos. Tambien podras traer tu propia bebida y
             botana de tu preferencia.
           </h3>
         </div>
